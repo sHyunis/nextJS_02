@@ -1,0 +1,23 @@
+.mobile{
+    display: flex;
+    flex-direction: column;
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+
+    right: -50%;
+    transition: 1s;
+}
+
+.mobile.hover,
+.mobile.active{
+    right: 0;
+}
+
+
+/* @media screen and (max-width: 1200px){ } */
+/* Tailwind에서는 ... */
+/* xs(작은사이즈) xxs sm(모바일사이즈 640px) md(중간 모니터 사이즈) lg(큰 모니터) xlg */
